@@ -8,7 +8,14 @@ class Header extends Component {
   render() {
     super.render();
 
-    this.domElement.innerHTML = `<h1 class="main-title">${this.title}</h1>`;
+    this.domElement.innerHTML = `
+    <h1 class="main-title">${this.title}</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Pokedex</a></li>
+      </ul>
+    </nav>
+    `;
   }
 }
 
