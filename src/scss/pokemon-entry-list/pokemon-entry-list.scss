@@ -1,0 +1,13 @@
+@use "../variables.scss";
+
+.pokemonCard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 30px;
+  border: solid variables.$lightBlue 0.5rem;
+  border-radius: 2rem;
+  padding: 10px 30px;
+  color: variables.$lightBlue;
+  background-color: variables.$yellow;
+}

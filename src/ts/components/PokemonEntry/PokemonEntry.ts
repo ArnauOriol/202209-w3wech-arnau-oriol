@@ -19,8 +19,8 @@ class PokemonEntry extends Component {
     } = this.pokemon;
 
     this.domElement.innerHTML = `
-    <div>
-      <h2>${id}. ${name}</h2>
+    <div class="pokemonCard-container">
+      <h2>${id}. ${name.toUpperCase()}</h2>
       <img src="${image}" alt="${name}">
     </div>
     `;
