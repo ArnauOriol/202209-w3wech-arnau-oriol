@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run build-js && npm run build-css",
     "build-js": "tsc",
     "build-js:dev": "npm run build-js -- -w",
     "build-css": "sass src/scss/styles.scss public/css/styles.css",
