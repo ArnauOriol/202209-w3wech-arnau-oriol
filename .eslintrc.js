@@ -35,5 +35,6 @@ module.exports = {
         caughtErrorsIgnorePattern: /^_$/.source,
       },
     ],
+    "no-useless-computed-key": "off",
   },
 };
