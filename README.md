@@ -29,7 +29,7 @@
 
     -shows a list with 10 pokemon entries
 
-## PokemonCard
+## PokemonEntry
 
 ### shows
 
