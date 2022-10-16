@@ -6,7 +6,7 @@ const fetchPokemonList = async (
   offset: string
 ) => {
   const response = await fetch(`${pokemonApiUrl}${pokemonListLimit}${offset}`);
-  const { results } = (await response.json()) as PokemonListResponse;
+  const results = (await response.json()) as PokemonListResponse;
   return results;
 };
 
