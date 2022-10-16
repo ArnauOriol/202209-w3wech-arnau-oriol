@@ -25,9 +25,9 @@ describe("Given the PokemonEntry component", () => {
       },
     };
 
-    test("Then it should show an h2 with '1. Bulbasaur'", () => {
+    test("Then it should show an h2 with '1. BULBASAUR'", () => {
       const tag = "h2";
-      const expectedTitle = `${pokemon.id}. ${pokemon.name}`;
+      const expectedTitle = `${pokemon.id}. ${pokemon.name.toUpperCase()}`;
 
       const pokemonEntry = new PokemonEntry(screen, pokemon);
       pokemonEntry.render();
