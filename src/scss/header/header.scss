@@ -1,0 +1,22 @@
+@use "../variables.scss";
+
+.main-header {
+  padding: 2rem;
+  background-color: variables.$lightBlue;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+}
+
+li {
+  padding: 4px;
+}
+
+a {
+  border: solid 1px;
+  color: #fff;
+  padding: 4px 6px;
+}
